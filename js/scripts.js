@@ -25,3 +25,11 @@ function loopThroughInput (numInput) {
   }
   return result;
 }
+
+$(document).ready(function() {
+  $("form").submit(function(event) {
+    event.preventDefault();
+    var numInput = parseInt($("#numInput").val());
+    $("#num-result").append("<p>[" + loopThroughInput(numInput) + "]<p>");
+  });
+});
