@@ -43,6 +43,7 @@ This webpage will take a number entered by the user and count from 0 to the numb
 <li><strong>Input</strong>: -15</li>
 <li><strong>Output</strong>: Number must not be negative.</li>
 </ul>
+</ul>
 
 ## License
-Copyright (c) 2020 Joseph Golden, Reggie Golden.
+Copyright (c) 2020 Joseph Golden.
